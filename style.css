@@ -17,5 +17,5 @@ body {
 .battery-level {
     height: 100%;
     background-color: #4CAF50;
-    transition: height 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
 }
