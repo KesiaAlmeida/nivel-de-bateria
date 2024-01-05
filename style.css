@@ -14,9 +14,9 @@
 
 #battery {
     box-sizing: content-box;
-    height: 7.8em;
+    height: 6.5em;
     width: 17.5em;
-    border: 0.6em solid #246aed;
+    border: 0.6em solid #0e8c3f;
     margin: auto;
     border-radius: 0.6em;
     position: relative;
@@ -60,7 +60,7 @@
 }
 
 .active {
-    animation: charge-animation 3s infinite linear;
+    animation: charge-animation 2s infinite linear;
 }
 
 @keyframes charge-animation {
