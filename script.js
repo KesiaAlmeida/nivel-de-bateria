@@ -1,4 +1,4 @@
-
+/*
 const chargeLevel = document.getElementById("charge-level");
 const charge = document.getElementById('charge');
 const chargingTimeRef = document.getElementById("charging-time");
@@ -55,9 +55,9 @@ navigator.getBattery().then((battery) => {
         let batteryLevel = `${parseInt(battery.level * 100)}%`;
         charge.style.width = batteryLevel;
         chargeLevel.textContent = batteryLevel;
-    }
+    }*/
 
-    /*const chargeLevel = document.getElementById("charge-level");
+    const chargeLevel = document.getElementById("charge-level");
 const charge = document.getElementById('charge');
 const chargingTimeRef = document.getElementById("charging-time");
 
@@ -105,4 +105,4 @@ navigator.getBattery().then((battery) => {
         charge.style.width = batteryLevel;
         chargeLevel.textContent = batteryLevel;
     }
-});/*
+});
